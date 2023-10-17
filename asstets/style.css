@@ -23,3 +23,14 @@ h1{
     float: right; 
     font-size: 250%;
 }
+
+/*Navigation link*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
