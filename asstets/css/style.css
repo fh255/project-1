@@ -106,7 +106,9 @@ margin-right: 30px;
 float: left;
 text-align: justify;
 color: #3a3a3a;
-clear:both;
+padding-bottom: 20px;
+height: 150px;
+
 }
 
 #about h2{
@@ -115,4 +117,20 @@ font-family: Oswald, sans-serif;
 padding-top: 20px;
 padding-bottom:20px ;
 line-height: 20px;
+}
+
+footer{
+    height: 50px;
+}
+
+#social-networks{
+   text-align: center;
+}
+#social-networks>li{
+    display: inline;
+}
+#social-networks i{
+    font-size: 150%;
+    margin: 5%;
+    padding: 5%;
 }
