@@ -48,8 +48,31 @@ h1{
 /*navigation end*/
 
 /*Image*/
+
+
+
+#image-outer{
+    height: 600px;
+    width: 100%;
+    overflow:hidden ;
+}
 #main-image{
     height: 600px;
     width: 100%;
     background: url('../images/Exploring-Coxs-Bazar.webp') no-repeat center center;
+
+/*Animate the zoom of main image*/
+animation-name:main-image-zoom ;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+/* create the level of zoom in the main image*/
+@keyframes main-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
