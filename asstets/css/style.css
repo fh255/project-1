@@ -3,13 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    border: none; 
+    border: none;
 }
 
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: darkslategray;
+    color: black;
 }
 
 /* heading*/
@@ -17,7 +17,7 @@ body {
 
 
 h1 {
-    color: rgb(6, 72, 6);
+    color: black;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -62,7 +62,7 @@ h1 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color:white;
+    background-color: white;
 }
 
 #main-image {
@@ -149,51 +149,59 @@ footer {
 }
 
 /* About HTML*/
-#reasons{
+#reasons {
     display: inline;
     float: left;
     height: 800px;
 }
-#reasons>h2{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #3a3a3a;
-        font-size: 40px;
-        letter-spacing: 2px;
-        font-family: Lato, sans-serif;
-        text-align: center;
+
+#reasons>h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #3a3a3a;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: Lato, sans-serif;
+    text-align: center;
 }
-#nature{
-float: left;
-height: 70px;
-width: 40%;
-margin-top: auto;
-margin-left: 45px;
+
+#nature {
+    float: left;
+    height: 70px;
+    width: 40%;
+    margin-top: auto;
+    margin-left: 45px;
 }
-#nature>h3{
+
+#nature>h3 {
     margin: 10px 0px 5px 0px;
 }
-#nature>p{
-text-align: justify;
+
+#nature>p {
+    text-align: justify;
     margin: 10px 0px 10px 0px;
-    
+
 }
+
 /*Seafood*/
-#seafood{
+#seafood {
     float: right;
     height: 70px;
-        width: 45%;
-        margin-top: auto;
-        margin-right: 40px;
-        
+    width: 45%;
+    margin-top: auto;
+    margin-right: 40px;
+
 }
-#seafood>h3{
+
+#seafood>h3 {
     margin: 10px 0px 10px 0px;
 }
-#seafood>p{
+
+#seafood>p {
     margin: 10px 0px 10px 0px;
     text-align: justify;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
@@ -274,6 +282,7 @@ h1 {
 #cover-text h2 {
     color: #fff;
 }
+
 /* create the level of zoom in the main image*/
 @keyframes main-image-zoom {
     from {
@@ -341,11 +350,13 @@ footer {
     padding: 5%;
 }
 
+/*Footer Ends here*/
+
 /* About HTML*/
 #reasons {
     display: inline;
     float: left;
-    height: 800px;
+    height: 730px;
 }
 
 #reasons>h2 {
@@ -372,17 +383,17 @@ footer {
 
 #nature>p {
     text-align: justify;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
 
 }
 
+/* Seafood*/
 #seafood {
     float: right;
     height: 150px;
     width: 45%;
     margin-top: auto;
     margin-right: 40px;
-
 }
 
 #seafood>h3 {
@@ -390,7 +401,7 @@ footer {
 }
 
 #seafood>p {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
     text-align: justify;
 }
 
@@ -398,48 +409,48 @@ footer {
 #himchori {
     height: 350px;
     width: 100%;
-    margin: 10 40px 10 40px;
+    padding-left: 50px;
     background: url('../images/slide01.webp') no-repeat center/cover;
     display: inline-block;
     margin-top: 40px;
     /*Animate the zoom of main image*/
-        animation-name: main-image-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: backwards;
+    animation-name: main-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
 }
- /*adventure*/
- #adventure{
+
+/*adventure*/
+#adventure {
     float: left;
-        height: 160px;
-        width: 40%;
-        margin-top: auto;
-        margin-left: 45px;
- }
- #adventure>h3 {
-     margin: 10px 0px 5px 0px;
- }
+    height: 160px;
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 45px;
+}
 
- #adventure>p {
-     text-align: justify;
-     margin: 10px 0px 10px 0px;
+#adventure>h3 {
+    margin: 10px 0px 5px 0px;
+}
 
- }
+#adventure>p {
+    text-align: justify;
+    margin: 10px 0px 10px 0px;
 
- #coral{
+}
+
+#coral {
     float: right;
-        height: 150px;
-        width: 45%;
-        margin-top: auto;
-        margin-right: 40px;
- }
- #coral>h3 {
-     margin: 10px 0px 10px 0px;
- }
+    height: 150px;
+    width: 45%;
+    margin-top: 15px;
+    margin-right: 40px;
+}
 
- #coral>p {
-     margin: 10px 0px 10px 0px;
-     text-align: justify;
- }
- 
+#coral>h3 {
+    margin: 10px 0px 10px 0px;
+}
 
-
+#coral>p {
+    margin: 10px 0px 10px 0px;
+    text-align: justify;
+}
