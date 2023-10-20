@@ -157,3 +157,21 @@ footer {
     letter-spacing: 2px;
     font-family: Oswald, sans-serif;
 }
+#nature{
+float: left;
+height: 250px;
+width: 40%;
+text-align: justify;
+margin-top: auto;
+margin-right: 15px;
+}
+
+#seafood{
+    float: right;
+    height: 250px;
+        width: 40%;
+        text-align: justify;
+        margin-top: auto;
+        margin-right: 15px;
+        margin-left: 15px;
+}
