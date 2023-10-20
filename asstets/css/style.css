@@ -163,19 +163,32 @@ footer {
 }
 #nature{
 float: left;
-height: 150px;
+height: 70px;
 width: 40%;
-text-align: justify;
 margin-top: auto;
-margin-right: 15px;
+margin-left: 45px;
+}
+#nature>h3{
+    margin: 10px 0px 5px 0px;
+}
+#nature>p{
+text-align: justify;
+    margin: 10px 0px 10px 0px;
+    
 }
 
 #seafood{
     float: right;
-    height: 150px;
-        width: 40%;
-        text-align: justify;
+    height: 70px;
+        width: 45%;
         margin-top: auto;
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 40px;
+        
+}
+#seafood>h3{
+    margin: 10px 0px 10px 0px;
+}
+#seafood>p{
+    margin: 10px 0px 10px 0px;
+    text-align: justify;
 }
