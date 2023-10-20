@@ -25,6 +25,8 @@ h1 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    width: 80%;
+    padding-top: 5px;
 }
 
 /*Navigation link*/
@@ -46,10 +48,6 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -146,4 +144,16 @@ footer {
     font-size: 150%;
     margin: 5%;
     padding: 2%;
+}
+
+/* About HTML*/
+#reasons{
+    display: inline;
+    float: left;
+    padding-top: 40px;
+    margin-left: 30px;
+    color: #3a3a3a;
+    font-size: 150%;
+    letter-spacing: 2px;
+    font-family: Oswald, sans-serif;
 }
