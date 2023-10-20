@@ -14,6 +14,8 @@ body {
 
 /* heading*/
 
+
+
 h1 {
     color: rgb(6, 72, 6);
     font-family: Oswald, sans-serif;
@@ -272,8 +274,6 @@ h1 {
 #cover-text h2 {
     color: #fff;
 }
-
-
 /* create the level of zoom in the main image*/
 @keyframes main-image-zoom {
     from {
@@ -323,6 +323,7 @@ h1 {
 }
 
 footer {
+
     height: 40px;
 }
 
@@ -336,15 +337,15 @@ footer {
 
 #social-networks i {
     font-size: 150%;
-    margin: 5%;
-    padding: 2%;
+    margin: 1%;
+    padding: 5%;
 }
 
 /* About HTML*/
 #reasons {
     display: inline;
     float: left;
-    height: 900px;
+    height: 800px;
 }
 
 #reasons>h2 {
@@ -406,5 +407,39 @@ footer {
         animation-duration: 5s;
         animation-fill-mode: backwards;
 }
+ /*adventure*/
+ #adventure{
+    float: left;
+        height: 160px;
+        width: 40%;
+        margin-top: auto;
+        margin-left: 45px;
+ }
+ #adventure>h3 {
+     margin: 10px 0px 5px 0px;
+ }
+
+ #adventure>p {
+     text-align: justify;
+     margin: 10px 0px 10px 0px;
+
+ }
+
+ #coral{
+    float: right;
+        height: 150px;
+        width: 45%;
+        margin-top: auto;
+        margin-right: 40px;
+ }
+ #coral>h3 {
+     margin: 10px 0px 10px 0px;
+ }
+
+ #coral>p {
+     margin: 10px 0px 10px 0px;
+     text-align: justify;
+ }
+ 
 
 
