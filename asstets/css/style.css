@@ -131,7 +131,7 @@ h1 {
 }
 
 footer {
-    height: 50px;
+    height: 40px;
 }
 
 #social-networks {
@@ -145,5 +145,5 @@ footer {
 #social-networks i {
     font-size: 150%;
     margin: 5%;
-    padding: 5%;
+    padding: 2%;
 }
