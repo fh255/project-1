@@ -25,7 +25,7 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 260%;
     margin-left: 30px;
     width: 80%;
     padding-top: 5px;
@@ -452,4 +452,28 @@ footer {
 #coral>p {
     margin: 10px 0px 10px 0px;
     text-align: justify;
+}
+
+/*Media querry*/
+@media screen and (max-width: 1200px){
+    /*for larger media from 1200px */
+    #about{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
+
+ /*for larger media from 950px */
+@media screen and (max-width: 950px) {
+    #menu{
+        clear:left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+        #logo{
+            font-size: 200%;
+        }
 }
