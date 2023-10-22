@@ -129,7 +129,8 @@ h1 {
     padding-bottom: 20px;
     line-height: 20px;
 }
-#about>p{
+
+#about>p {
     height: 350px;
 }
 
@@ -157,7 +158,7 @@ footer {
     display: inline;
     float: left;
     height: 800px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 #reasons>h2 {
@@ -172,10 +173,10 @@ footer {
 
 #nature {
     float: left;
-    height: 70px;
+    height: 170px;
     width: 40%;
     margin-top: auto;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 
 #nature>h3 {
@@ -191,8 +192,8 @@ footer {
 /*Seafood*/
 #seafood {
     float: right;
-    height: 70px;
-    width: 45%;
+    height: 170px;
+    width: 40%;
     margin-top: auto;
     margin-right: 40px;
 
@@ -241,7 +242,7 @@ footer {
 
 #coral {
     float: right;
-    height: 150px;
+    height: 160px;
     width: 45%;
     margin-top: 15px;
     margin-right: 40px;
@@ -257,73 +258,131 @@ footer {
 }
 
 /*Media querry*/
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
+
     /*for larger media from 1200px */
-    #about{
+    #about {
         width: 100%;
         height: 200px;
         margin-left: 40px;
         padding-right: 50px;
     }
-        #menu{
-            float: right;
-        }
-                #logo {
-                    width: 72%;
-                }
-                footer{
-                    clear: both;
-                    width: 100%;
-                    line-height: 25px;
-                    margin-bottom: 0px;
-                }
-                #reasons{
-                    columns: 2;
-                    height: 800px;
-                }
+
+    #menu {
+        float: right;
+    }
+
+    #logo {
+        width: 72%;
+    }
+
+    footer {
+        clear: both;
+        width: 100%;
+        line-height: 25px;
+        margin-bottom: 0px;
+    }
+
+    #reasons {
+        height: 850px;
+
+    }
+    #nature{
+        height: 200px;
+    }
+    #seafood{
+        height: 200px;
+    }
 }
 
- /*for larger media from 950px */
+/*for larger media from 950px */
 @media screen and (max-width: 950px) {
-    #menu{
-        clear:left;
+    #menu {
+        clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
-        #logo{
-            font-size: 200%;
-        }
-        footer{
-            clear: both;
-            width: 100%;
-                line-height: 25px;
-                margin-bottom: 0px;
-        }
-                #reasons {
-                    columns: 2;
-                    height: 800px;
-                }
-}
-/*for larger media from 700px */
-@media screen and (max-width: 70px){
+
     #logo {
-     width: 100%;
-     font-size: 100%;
+        font-size: 200%;
     }
-    #about{
-    width: 100%;
+
+    footer {
+        clear: both;
+        width: 100%;
+        line-height: 25px;
+        margin-bottom: 0px;
+    }
+}
+
+/*for larger media from 700px */
+@media screen and (max-width: 700px) {
+    #logo {
+        width: 100%;
+        font-size: 100%;
+    }
+
+    #about {
+        width: 100%;
         margin-left: 40px;
         padding-right: 40px;
-       
+
     }
-    footer{
+
+    footer {
         clear: both;
     }
-        #reasons {
-            columns: 2;
-            height: 900px;
+    #reasons {
+        column-count: 1;
+        height: 1200px;
+    }
+    #nature{
+    clear: left;
+    float: left;
+    height: 180px;
+    width: 100%;
+    }
+    #seafood{
+        clear: left;
+        float: left;
+        height: 180px;
+        width: 100%;
+        margin-left: 40px;
+    }
+    #adventure{
+        clear: left;
+        float: left;
+        height: 150px;
+        width: 100%;
         }
-        
+    #coral{
+        clear: left;
+            float: left;
+            height: 150px;
+            width: 100%;
+            margin-left: 40px;
+    }
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+    #reasons {
+            column-count: 1;
+            height: 1200px;
+        }
+        #nature{
+            width: 100%;
+                height: 250px;
+                float: left;
+        }
+    #seafood{
+        width: 100%;
+        height: 250px;
+        float: left;
+    }
+
 }
