@@ -27,7 +27,7 @@ h1 {
     float: left;
     font-size: 260%;
     margin-left: 30px;
-    width: 80%;
+    width: 70%;
     padding-top: 5px;
 }
 
@@ -97,7 +97,7 @@ h1 {
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
-    text-overflow: uppercase;
+    text-transform: uppercase;
     letter-spacing: 4px;
     width: 300px;
     height: 200px;
@@ -118,7 +118,7 @@ h1 {
     text-align: justify;
     color: #3a3a3a;
     padding-bottom: 20px;
-    height: 150px;
+    height: 450px;
 
 }
 
@@ -129,9 +129,13 @@ h1 {
     padding-bottom: 20px;
     line-height: 20px;
 }
+#about>p{
+    height: 350px;
+}
 
 footer {
     height: 40px;
+    margin: 20px;
 }
 
 #social-networks {
@@ -153,6 +157,7 @@ footer {
     display: inline;
     float: left;
     height: 800px;
+    margin-bottom: 40px;
 }
 
 #reasons>h2 {
@@ -202,216 +207,13 @@ footer {
     text-align: justify;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: darkslategray;
-}
-
-/* heading*/   
-    
-h1 {
-    color: rgb(6, 72, 6);
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-    width: 80%;
-    padding-top: 5px;
-}
-
-/*Navigation link*/
-#menu {
-    font-size: 110%;
-    letter-spacing: 1px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 40px;
-    padding-top: 15px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/*navigation end*/
-
-
-/*Image*/
-#image-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: white;
-}
-
-#main-image {
-    height: 550px;
-    width: 100%;
-    background: url('../images/Exploring-Coxs-Bazar.webp') no-repeat center center;
-
-    /*Animate the zoom of main image*/
-    animation-name: main-image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-#cover-text,
-#cover-text h2 {
-    color: #fff;
-}
-
-/* create the level of zoom in the main image*/
-@keyframes main-image-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
-
-/* Cover Text*/
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-overflow: uppercase;
-    letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 100px;
-    bottom: 30px;
-    right: 150px;
-    text-align: left;
-    position: absolute;
-}
-
-/*About*/
-#about {
-    font-family: Oswald, sans-serif;
-    margin-left: 30px;
-    margin-right: 30px;
-    float: left;
-    text-align: justify;
-    color: #3a3a3a;
-    padding-bottom: 20px;
-    height: 150px;
-
-}
-
-#about h2 {
-    font-size: 30px;
-    font-family: Oswald, sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 20px;
-}
-
-footer {
-
-    height: 40px;
-}
-
-#social-networks {
-    text-align: center;
-}
-
-#social-networks>li {
-    display: inline;
-}
-
-#social-networks i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 5%;
-}
-
-/*Footer Ends here*/
-
-/* About HTML*/
-#reasons {
-    display: inline;
-    float: left;
-    height: 730px;
-}
-
-#reasons>h2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #3a3a3a;
-    font-size: 40px;
-    letter-spacing: 2px;
-    font-family: Lato, sans-serif;
-    text-align: center;
-}
-
-#nature {
-    float: left;
-    height: 160px;
-    width: 40%;
-    margin-top: auto;
-    margin-left: 45px;
-}
-
-#nature>h3 {
-    margin: 10px 0px 5px 0px;
-}
-
-#nature>p {
-    text-align: justify;
-    margin: 10px 0px 20px 0px;
-
-}
-
-/* Seafood*/
-#seafood {
-    float: right;
-    height: 150px;
-    width: 45%;
-    margin-top: auto;
-    margin-right: 40px;
-}
-
-#seafood>h3 {
-    margin: 10px 0px 10px 0px;
-}
-
-#seafood>p {
-    margin: 10px 0px 20px 0px;
-    text-align: justify;
-}
-
 /*Himchori Picture*/
 #himchori {
     height: 400px;
     width: 100%;
     background: url('../images/slide01.webp') no-repeat center/cover;
     display: inline-block;
-    margin: 40px 100px 0px 40px;
+    margin: 40px 40px 0px 40px;
     /*Animate the zoom of main image*/
     animation-name: main-image-zoom;
     animation-duration: 5s;
@@ -458,10 +260,27 @@ footer {
 @media screen and (max-width: 1200px){
     /*for larger media from 1200px */
     #about{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+        width: 100%;
+        height: 200px;
+        margin-left: 40px;
+        padding-right: 50px;
     }
+        #menu{
+            float: right;
+        }
+                #logo {
+                    width: 72%;
+                }
+                footer{
+                    clear: both;
+                    width: 100%;
+                    line-height: 25px;
+                    margin-bottom: 0px;
+                }
+                #reasons{
+                    columns: 2;
+                    height: 800px;
+                }
 }
 
  /*for larger media from 950px */
@@ -476,4 +295,35 @@ footer {
         #logo{
             font-size: 200%;
         }
+        footer{
+            clear: both;
+            width: 100%;
+                line-height: 25px;
+                margin-bottom: 0px;
+        }
+                #reasons {
+                    columns: 2;
+                    height: 800px;
+                }
+}
+/*for larger media from 700px */
+@media screen and (max-width: 70px){
+    #logo {
+     width: 100%;
+     font-size: 100%;
+    }
+    #about{
+    width: 100%;
+        margin-left: 40px;
+        padding-right: 40px;
+       
+    }
+    footer{
+        clear: both;
+    }
+        #reasons {
+            columns: 2;
+            height: 900px;
+        }
+        
 }
