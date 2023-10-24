@@ -1,39 +1,44 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Cox's Bazar Bangladesh
+The "Cox's Bazar Bangladesh" is a Page about on of the famous tourist destination. Cox's bazar was natural sites of Bangladesh, have been taken off the list of New 7 Wonders of Nature .
+Users of this site will be able to find important information about this city.
 
-Welcome,
+Features
+Navigation
+    Topleft corner of the page is our Logo , which shows the City's name and country. this is also linked to our home page.
+    
+    the other namvigation links are liked to home and visit us.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+    The Home page give us the information about cox's Bazar while the visit us page is about the reason to visit Cox's Bazar.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Reasons to visit us
+    This page let us know about some attractions in Cox's Bazar like , stunning nature, Seafoofs,coral life and so on.
 
-## Codeanywhere Reminders
+Testing
+    I tested the page works in Chrome and Safary website.
+    i confirm the project look good and works on different website from 1200px to 500px screen size.
+    I confirm that all the nav-bar and footer work perfectly.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Bugs
+    Unfortunately I couldn't fixed my bugs as I was unable to deploy my project to github and i already mailed my mentor aboout it.
 
-`python3 -m http.server`
+Validator testiong
+HTML
+    No errors found on W3C HTML Markup validator.
+CSS
+    No errors found on W3C CSS validator.
+Accessibility
+    
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+    
+Deployments
+Thesite was deployed to github page by using following steps
+    the github repository, nevigation to setting tab.
+    from menu select the Pages and go to source. by using drop-down select the deploy from branch.
+    once the branch was selected to main brach, the page provide the link to the website.
+    the link: <https://fh255.github.io/project-1/>
+    
+Credits
+Content
+    The code to make social media was learned from the Love running Project.
+Media
+    The images were taken from Google.
