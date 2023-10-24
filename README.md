@@ -1,9 +1,10 @@
-Cox's Bazar Bangladesh
-The "Cox's Bazar Bangladesh" is a Page about on of the famous tourist destination. Cox's bazar was natural sites of Bangladesh, have been taken off the list of New 7 Wonders of Nature .
+# Cox's Bazar Bangladesh
+The Cox's Bazar Bangladesh is a Page about on of the famous tourist destination. Cox's bazar was natural sites of Bangladesh, have been taken off the list of New 7 Wonders of Nature .
 Users of this site will be able to find important information about this city.
+You can check the project here (<https://fh255.github.io/project-1/>)
 
-Features
-Navigation
+##Features
+###Navigation
     Topleft corner of the page is our Logo , which shows the City's name and country. this is also linked to our home page.
     
     the other namvigation links are liked to home and visit us.
