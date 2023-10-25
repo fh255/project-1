@@ -151,6 +151,9 @@ footer {
     column-count: 3;
     column-gap: 0;
 }
+#photos > img{
+    width: 100%;
+}
 
 /* About HTML*/
 #reasons {
