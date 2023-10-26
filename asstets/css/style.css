@@ -333,6 +333,9 @@ footer {
   footer {
     clear: both;
   }
+   #photos {
+       column-count: 2;
+   }
   #reasons {
     column-count: 1;
     height: 1200px;
@@ -372,6 +375,7 @@ footer {
   #about > h2 {
     font-size: 20px;
   }
+ 
   #reasons {
     width: auto;
     height: 1400px;
