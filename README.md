@@ -7,12 +7,17 @@ You can check the project here Cox's Baza[(<https://fh255.github.io/project-1/>)
 ## Features
 
 - __Navigation__
-  - Topleft corner of the page is our Logo , which shows the City's name and country. this is also linked to our home page.<img width="1274" alt="home-page" src="https://github.com/fh255/project-1/assets/34744096/2a731b40-94d5-4888-a36d-35c7d6976f31">
-
-  - the other namvigation links are liked to Home, Photos and Visit us.<img width="371" alt="navigation" src="https://github.com/fh255/project-1/assets/34744096/18f6d5cd-5ed0-4a19-b604-13d5f74a0ac1">
+  - Top left corner of the page is our Logo , which shows the City's name .
+  - The navigation part is designed to 3 part: Home, Photos and Visit us.
+    <img width="371" alt="navigation" src="https://github.com/fh255/project-1/assets/34744096/18f6d5cd-5ed0-4a19-b604-13d5f74a0ac1">
+  
+- __Home__
+- The home page contains a picture and short description about the city.
+ <img width="1274" alt="home-page" src="https://github.com/fh255/project-1/assets/34744096/2a731b40-94d5-4888-a36d-35c7d6976f31">
 
 - __Photos__
-  - This page is designed for the gallery. <img width="1276" alt="photos" src="https://github.com/fh255/project-1/assets/34744096/5708a431-129c-4d73-899c-1914e811dc49">
+  - This page is designed for the gallery.
+    <img width="1276" alt="photos" src="https://github.com/fh255/project-1/assets/34744096/5708a431-129c-4d73-899c-1914e811dc49">
 
 
 - __Visit us__
