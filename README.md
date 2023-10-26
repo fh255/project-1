@@ -28,9 +28,6 @@ You can check the project here Cox's Baza[(<https://fh255.github.io/project-1/>)
 - I confirm the project look good and works on different website from 1200px to 500px screen size.
 - I confirm that all the nav-bar and footer work perfectly.
 
-- __Bugs__
-  - Unfortunately I couldn't fixed my bugs as I was unable to deploy my project to github and i already mailed my mentor aboout it.
-
 ## Validator testiong
 
 - __HTML__
