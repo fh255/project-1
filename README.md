@@ -54,6 +54,6 @@ The site was deployed to github page by using following steps
 ## Credits
 
 - __Content__
-  - The code to make social media was learned from the Love running Project.
+  - The code to make social media, Logo and Nav bar was learned from the Love running Project.
 - __Media__
   - The images were taken from Google .
